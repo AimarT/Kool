@@ -4,6 +4,12 @@ import java.util.Scanner;
  * Created by admin on 17.11.2016.
  */
 public class C57 {
+    public static void main(String[] args) {
+        printLogaritm(2);
+        scanDouble();
+
+    }
+
     public static void printLogaritm (double x) {
         if (x <= 0.0) {
             System.err.println("Error: x must be positive.");
