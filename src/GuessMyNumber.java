@@ -22,6 +22,7 @@ public class GuessMyNumber {
         int number = random.nextInt(100) + 1;
         System.out.println(number);
         System.out.println("You were off by: " + Math.abs(number - userNumber));
+         //Tee lõpuni !
 
 
 
