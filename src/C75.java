@@ -14,7 +14,7 @@ public class C75 {
         }
         System.out.println();
     }
-    // V2If you need to use a loop variable outside the loop, you have todeclare it outside the loop.
+    // V2If you need to use a loop variable outside the loop, you have to declare it outside the loop.
 
     public static void printTable2 ( int rows){
         for (int i2 =1; i2 <= rows; i2 = i2 + 1) {
