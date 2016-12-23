@@ -3,15 +3,15 @@
  */
 public class C67 {
     public static void main(String[] args) {
-        System.out.println(factorial(3));
+        System.out.println(factorial(5));
 
     }
     public static int factorial (int n) {
-        if (n ==0 ) {
+        if (n == 0 ) {
             return  1;
         }
         int recruce = factorial(n-1);
-        int result =n * recruce;
+        int result = n * recruce;
         return result;
 
     }

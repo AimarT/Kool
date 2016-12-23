@@ -20,7 +20,7 @@ public class Sqrt {
     }
     public static void main(String[] args) {
         Sqrt sqrt = new Sqrt();
-        System.out.println(sqrt.squareRoot(26));
+        System.out.println(sqrt.squareRoot(81));
     }
 
 }
