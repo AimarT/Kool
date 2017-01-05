@@ -18,8 +18,5 @@ public class C8EX8 {
             System.out.println();
 
         }
-
     }
-
-
 }
