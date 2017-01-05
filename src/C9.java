@@ -100,7 +100,12 @@ public class C9 {
                         }
                         return String.format("%02d:%02d %s", hour , minute , ampm);
                     }
+    //9.8
     String str = "12344";
     int num = Integer.parseInt(str);
+
+    int num2 = 12345;
+    String str2 = Integer.toString(num2);
+
                 }
 
