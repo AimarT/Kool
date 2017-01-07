@@ -35,7 +35,7 @@ public class C8 {
         }
         // 8.3
         int [] a = {1,2,3,4};
-        System.out.println(a);
+        System.out.println(Arrays.toString(a));
     }
     // If we want to display the elements of the array, we can do it ourselves:
 

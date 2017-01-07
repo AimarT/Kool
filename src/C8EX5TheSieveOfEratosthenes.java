@@ -11,7 +11,6 @@ public class C8EX5TheSieveOfEratosthenes {
             }
         }
         return PrimeNumbers;
-
     }
 
     public static boolean isPrime(int n) {

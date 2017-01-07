@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Random;
 
 /**
@@ -13,13 +14,12 @@ public class C86 {
         return -1;
     }
 
-    public static int sum(double[] a) {
+    public static double sum(double[] a) {
         double total = 0.0;
         for (int i = 0; i < a.length; i++) {
             total += a[i];
         }
-        return (int) total;
-        // lisasin (int), muidu error
+        return total;
     }
     public static int [] randomArray (int size) {
         Random random = new Random();
@@ -40,10 +40,11 @@ public class C86 {
         //
 
     public static void main(String[] args) {
-        int numValues = 8;
+        int numValues = 1;
         int[] array = randomArray(numValues);
         printArray(array);
-        System.out.println(randomArray(99));
+        printArray(randomArray(99));
+
 
         //8.8
         //väärtused annan mainis hetkel.
@@ -68,7 +69,7 @@ public class C86 {
             int index = scores[i];
             counts[index]++;
             //andsin print käsu
-            System.out.println(counts);
+            printArray(counts);
         }
 
         /*
