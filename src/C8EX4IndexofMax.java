@@ -13,7 +13,7 @@ public class C8EX4IndexofMax {
 
     public static void main(String[] args) {
         int [] m = new int[1];
-        System.out.println(IndexofMax(m,24));
+        System.out.println(IndexofMax(m,17));
         System.out.println(IndexofMax(m,7));
     }
 }
