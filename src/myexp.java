@@ -19,7 +19,31 @@ public class myexp {
     }
 
     public static void main(String[] args) {
-        System.out.println(myExp(2,2));
-        System.out.println(myExp2(2,2));
+        System.out.println(myExp3(2,6));
+    }
+    public static double myExp3 (int x, int n){
+        double result = 0;
+        for (int i = 0; i <= n; i++ ){
+            result += (power(x,i)/factorial(i));
+        }
+        return result;
+    }
+    public static double power (double x, int n) {
+        // minu versioon if (x^(n) = x * x^(n-1));
+        if (n < 0 ) {
+            return 1/(power(x,-n));
+        } else if (n == 0) {
+            return 1;
+        }
+        return x * power(x, n-1);
+    }
+    public static int factorial (int n) {
+        if (n == 0 ) {
+            return  1;
+        }
+        int recruce = factorial(n-1);
+        int result = n * recruce;
+        return result;
+
     }
 }
